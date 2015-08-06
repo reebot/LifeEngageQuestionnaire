@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>LifeEngageQuestionnaire</display-name>
+  <welcome-file-list>
+    <welcome-file>Team2_End.jsp</welcome-file>
+ 
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FNAQuestionnaireFormController</display-name>
+    <servlet-name>FNAQuestionnaireFormController</servlet-name>
+    <servlet-class>com.cts.lifeengage.controller.FNAQuestionnaireFormController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FNAQuestionnaireFormController</servlet-name>
+    <url-pattern>/FNAQuestionnaireFormController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FNAQuestionnaireRiskController</display-name>
+    <servlet-name>FNAQuestionnaireRiskController</servlet-name>
+    <servlet-class>com.cts.lifeengage.controller.FNAQuestionnaireRiskController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FNAQuestionnaireRiskController</servlet-name>
+    <url-pattern>/FNAQuestionnaireRiskController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FNAQuestionnaireProductController</display-name>
+    <servlet-name>FNAQuestionnaireProductController</servlet-name>
+    <servlet-class>com.cts.lifeengage.controller.FNAQuestionnaireProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FNAQuestionnaireProductController</servlet-name>
+    <url-pattern>/FNAQuestionnaireProductController</url-pattern>
+  </servlet-mapping>
+</web-app>
