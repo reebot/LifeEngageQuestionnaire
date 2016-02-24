@@ -7,8 +7,6 @@ var j=0,k=0,flag;
 function fCheck(a) { 
 	
 	var total=document.getElementById("total").value;
-	
-	
 	if(j==0)
 		{
 		names[0]=a;
